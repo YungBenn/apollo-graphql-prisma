@@ -7,12 +7,12 @@ import typeDefs from './schema.js';
 
 async function start() {
     const server = new ApolloServer({ resolvers, typeDefs });
+    const port = process.env.PORT || 3000;
 
     const { url } = await startStandaloneServer(server, {
-        listen: { port: 4000 },
+        listen: { port: port },
     });
 
-    const port = process.env.PORT || 3000;
     console.log(`🚀 Server ready at: ${url}`);
 }
 
