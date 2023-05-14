@@ -14,12 +14,10 @@
     "prisma": "^4.14.0"
   },
   "dependencies": {
-    "@apollo/client": "^3.7.14",
     "@apollo/server": "^4.7.1",
     "@prisma/client": "^4.14.0",
     "dotenv": "^16.0.3",
     "graphql": "^16.6.0",
-    "graphql-scalars": "^1.21.3",
     "graphql-tag": "^2.12.6"
   },
   "type": "module",
