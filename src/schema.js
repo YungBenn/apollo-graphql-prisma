@@ -32,10 +32,13 @@ const typeDefs = gql`
         ): Product!
         updateProduct(
             id: ID!
-            name: String!
-            description: String!
+            name: String
+            description: String
             published: Boolean
             price: Float
+        ): Product
+        deleteProduct(
+            id: ID!
         ): Product
     }
 `;

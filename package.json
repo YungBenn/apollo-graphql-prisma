@@ -1,13 +1,13 @@
 {
   "name": "apollo-graphql-prisma",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Tugas 3 EAI - GraphQL",
+  "main": "src/server.js",
   "scripts": {
     "dev": "nodemon ./src/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "YungBenn",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.22",

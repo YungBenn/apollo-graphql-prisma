@@ -24,6 +24,11 @@ const Mutation = {
             },
         });
     },
+    deleteProduct: (parent, args) => {
+        return prisma.product.delete({
+            where: { id: String(args.id) },
+        });
+    },
 };
 
 export default Mutation;
