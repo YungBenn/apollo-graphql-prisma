@@ -13,7 +13,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd go-mysql-test
+  cd apollo-graphql-prisma
 ```
 
 Install dependencies
